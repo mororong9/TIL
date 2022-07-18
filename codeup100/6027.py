@@ -1,5 +1,5 @@
 a = input()
-n = int(a)            #입력된 a를 10진수 값으로 변환해 변수 n에 저장
+n = int(a)
 print('%x'% n)
 '''
 10진수를 입력받아 16진수(hexadecimal)로 출력해보자.
