@@ -1,6 +1,5 @@
 from pprint import pprint
 
-
 def movie_info(movie, genres):
     genres_names = []
     genre_ids = movie["genre_ids"]
