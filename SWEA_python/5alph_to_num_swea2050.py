@@ -1,15 +1,9 @@
 import sys
 sys.stdin=open('2050_input.txt','r')
 
-# T = input()
-# # 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
-# for test_case in T:
-#     result=int(test_case)
-#     print(int(result), end=' ')
-
-k = list(input())
+k = list(input()) #리스트로 입력받기
 for i in range(len(k)):
-    print(ord(k[i])-64, end=' ')
+    print(ord(k[i])-64, end=' ') #ord[]:문자를 아스키값으로 변환 cf)chr[]: 아스키값을 문자로 변환
 
 ''''
 
